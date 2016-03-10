@@ -6,8 +6,12 @@ $arComponentDescription = array(
     "DESCRIPTION" => 'Для выполнения произвольного кода',
 	'ICON' => '/images/icon.gif',
     "CACHE_PATH" => "Y",
-    "PATH" => array(
-        "ID" => "utility",
-    )
+	"PATH" => array(
+		"ID" => "tsl",
+		"CHILD" => array(
+			"ID" => "tsl_base",
+			"NAME" => "Базовые компоненты"
+			)
+		)
 );
 ?>

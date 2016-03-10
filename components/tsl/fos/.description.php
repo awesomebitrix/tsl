@@ -6,8 +6,8 @@
 	"PATH" => array(
 		"ID" => "tsl",
 		"CHILD" => array(
-			"ID" => "fos",
-			"NAME" => "Компонент для вывода формы обратной связи v 0.1"
+			"ID" => "tsl_base",
+			"NAME" => "Базовые компоненты"
 			)
 		),
 		"ICON" => "/images/icon.gif",
